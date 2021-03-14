@@ -1,0 +1,24 @@
+---
+title: "FAQ"
+collection: documentation
+type: "Documentation"
+permalink: /documentation/faq
+order: 4
+tags:
+  - quick-start
+---
+
+## FAQ
+
+**1. Which IDE should I use?**    
+
+Since Raphtory is built with Scala, it is best to use IntelliJ IDE for the code. They have a community version which is free. Follow their guide for installation.
+
+**2. What should I do if I get error messages indicating failure to ingest data?**    
+
+Here are a few things to check if you are getting error messages:  
+
+- Check if your files are in the right directory. The latest release of Raphtory, raphtory.jar, should be inside the lib directory.  
+
+- The data source is too big or too many states are being generated in the analysis. Try testing on a smaller sample of the data set.
+
